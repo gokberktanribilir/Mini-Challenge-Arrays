@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Challenge-Arrays</title>
+</head>
+<body>
+    <h1>Mini-Challenge-Arrays</h1>
+    <script>
+
+// 1. map() Challenge
+const numbers = [1, 2, 3];  
+const mappedNumbers = numbers.map(n => n * 2);  
+console.log(mappedNumbers); // Çıktı: [2, 4, 6]
+
+// 2. forEach() Challenge
+const fruitsForEach = ['🍎', '🍌', '🍓'];  
+fruitsForEach.forEach(item => console.log(`This is ${item}`));  
+// Çıktı:  
+// This is 🍎  
+// This is 🍌  
+// This is 🍓 
+
+// 3. filter() Challenge
+const numbersFilter = [5, 12, 8, 21];
+const filteredNumbers = numbersFilter.filter(n => n > 10);
+console.log(filteredNumbers); // Çıktı: [12, 21]
+
+// 4. find() Challenge
+const fruitsFind = ['🍎', '🍌', '🍓', '🍍'];
+const found = fruitsFind.find(item => item === '🍌');
+console.log(found); // Çıktı: '🍌'
+
+// 5. includes() Challenge
+const fruitsIncludes = ['🍎', '🍌', '🍓'];
+const apple = fruitsIncludes.includes('🍎');
+console.log(apple); // Çıktı: true
+
+// 6. slice() Challenge
+const numbersSlice = [1, 2, 3, 4, 5];
+const selectedNumbers = numbersSlice.slice(0, 2);
+console.log(selectedNumbers); // Çıktı: [1, 2]
+
+// 7. push() Challenge
+const fruitsPush = ['🍎', '🍌'];
+fruitsPush.push("🍉");
+console.log(fruitsPush); // Çıktı: ['🍎', '🍌', '🍉']
+
+// 8. pop() Challenge
+const fruitsPop = ['🍎', '🍌', '🍉'];
+fruitsPop.pop();
+console.log(fruitsPop); // Çıktı: ['🍎', '🍌']
+
+    </script>
+</body>
+</html>
